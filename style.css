@@ -103,9 +103,9 @@ a:hover {
 
 .menu-links {
     position: absolute;
-    right:0; 
+    top: 100%;
+    right: 0;
     width: fit-content;
-    padding-right: 8%;
     background-color: rgb(255, 255, 255);
     /* Making the box height 0 */
     max-height: 0;
