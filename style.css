@@ -313,6 +313,7 @@ section {
 }
 
 .section__pic-container {
+    border-radius: 2rem;
     height: 400px;
     width: 400px;
     margin: auto 0;
@@ -410,16 +411,27 @@ article .icon {
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
-  }
+}
 
-  .contact-info-container p {
+.contact-info-container p {
     font-size: larger;
-  }
-  
-  .contact-icon {
+}
+
+.contact-icon {
     cursor: default;
-  }
-  
-  .email-icon {
+}
+
+.email-icon {
     height: 2.5rem;
-  }
+}
+
+/* Footer Section*/
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
