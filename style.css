@@ -396,6 +396,10 @@ article .icon {
     color: white;
 }
 
+.project-1-image{
+    border:rgb(193, 193, 193) 0.1rem solid;
+}
+
 /* Contact */
 
 #contact {
