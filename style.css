@@ -319,6 +319,11 @@ section {
     margin: auto 0;
 }
 
+.about-text-container p{
+    font-size: 0.9rem;
+    font-weight: 430;
+}
+
 /* Experience Section */
 
 #experience {
@@ -383,6 +388,12 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+/*In Progress Button*/
+.in-progress-btn{
+    background: rgb(53, 53, 53);
+    color: white;
 }
 
 /* Contact */
