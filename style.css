@@ -7,22 +7,22 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-p{
-    color: rgb(85,85,85);
+p {
+    color: rgb(85, 85, 85);
 }
 
 /* Transition */
 
-a, 
-.btn{
+a,
+.btn {
     transition: all 300ms ease;
 }
 
@@ -41,14 +41,14 @@ nav {
     height: 17vh;
 }
 
-.nav-links{
+.nav-links {
     gap: 2rem;
     /* remove dots */
     list-style: none;
     font-size: 1.5rem;
 }
 
-a{
+a {
     color: black;
     /* Remove underline */
     text-decoration: none;
@@ -56,10 +56,10 @@ a{
 }
 
 a:hover {
-    color:grey;
+    color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
@@ -68,14 +68,14 @@ a:hover {
 
 .logo:hover {
     /* Making the Cursor display as a mouse */
-    cursor:default;
+    cursor: default;
 }
 
 /* Hamburger Menu */
 
 #hamburger-nav {
     /* Initially not displayed */
-    display:none;
+    display: none;
 }
 
 .hamburger-menu {
@@ -93,7 +93,7 @@ a:hover {
     cursor: pointer;
 }
 
-.hamburger-icon span{
+.hamburger-icon span {
     width: 100%;
     height: 2px;
     background-color: black;
@@ -121,7 +121,7 @@ a:hover {
     padding: 10px;
     text-align: left;
     font-size: 1.5rem;
-    color : black;
+    color: black;
     text-decoration: none;
     /* Slow start and a slow end */
     transition: all 0.3 ease-in-out;
@@ -131,29 +131,29 @@ a:hover {
     list-style: none;
 }
 
-.menu-links.open{
+.menu-links.open {
     /* Change this to 300px to reveal it */
     max-height: 300px;
 }
 
-.hamburger-icon.open span:first-child{
+.hamburger-icon.open span:first-child {
     /* Transform the hamburger icon */
     transform: rotate(45deg) translate(10px, 5px);
 }
 
-.hamburger-icon.open span:nth-child(2){
+.hamburger-icon.open span:nth-child(2) {
     /* Transform the hamburger icon */
     opacity: 0;
 }
 
-.hamburger-icon.open span:last-child{
+.hamburger-icon.open span:last-child {
     /* Transform the hamburger icon */
     transform: rotate(-45deg) translate(10px, -5px);
 }
 
 /* Sections */
 
-section{
+section {
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -181,7 +181,7 @@ section{
     margin: auto 0;
 }
 
-.section__text{
+.section__text {
     align-self: center;
     text-align: center;
 }
@@ -194,13 +194,13 @@ section{
     text-align: center;
 }
 
-.title{
+.title {
     font-size: 3rem;
     text-align: center;
 }
 
 #socials-container {
-    display:flex;
+    display: flex;
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
@@ -209,7 +209,7 @@ section{
 /* Icons */
 
 .icon {
-    cursor:pointer;
+    cursor: pointer;
     height: 2rem;
 }
 
@@ -224,7 +224,7 @@ section{
 
 .btn {
     /* Bold text */
-    font-weight:600;
+    font-weight: 600;
     transition: all 300ms ease;
     /* Making buttion taller */
     padding: 1rem;
@@ -236,22 +236,23 @@ section{
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(53,53,53) 0.1rem solid;
+    border: rgb(53, 53, 53) 0.1rem solid;
 }
+
 /* Hover effect on buttons */
 .btn-color-1:hover,
 .btn-color-2:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .btn-color-1,
 .btn-color-2:hover {
-    background: rgb(53,53,53);
-    color:white;
+    background: rgb(53, 53, 53);
+    color: white;
 }
 
-.btn-color-1:hover{
-    background: rgb(0,0,0);
+.btn-color-1:hover {
+    background: rgb(0, 0, 0);
     border: white 0.1rem solid;
 }
 
@@ -263,7 +264,9 @@ section{
     border: white 0.1rem solid;
 }
 
-#about{
+/* About Section */
+
+#about {
     position: relative;
 }
 
@@ -296,11 +299,11 @@ section{
 .details-container {
     padding: 1.5rem;
     /* Fill the line */
-    flex:1;
+    flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(163,163,163);
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
     text-align: center;
 }
 
@@ -309,74 +312,114 @@ section{
     height: 80%
 }
 
-.section__pic-container{
+.section__pic-container {
     height: 400px;
-    width:400px;
+    width: 400px;
     margin: auto 0;
 }
 
 /* Experience Section */
 
 #experience {
-  position: relative;
+    position: relative;
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
 }
 
 .experience-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
 }
 
 article {
-  display: flex;
-  width: 10rem;
-  text-align: left;
-  gap: 0.5rem;
+    display: flex;
+    width: 10rem;
+    text-align: left;
+    gap: 0.5rem;
 }
 
 article .icon {
-  cursor: default;
+    cursor: default;
 }
 
 /* Project Section */
 
 #projects {
     position: relative;
-  }
-  
-  .color-container {
+}
+
+.color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
-  }
-  
-  .project-img {
+}
+
+.project-img {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
-  }
-  
-  .project-title {
+}
+
+.project-title {
     margin: 1rem;
     color: black;
-  }
-  
-  .project-btn {
+}
+
+.project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+/* Contact */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
   }
