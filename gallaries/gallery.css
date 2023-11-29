@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -139,3 +140,37 @@ body {
 
 /* PhotoWall Section */
 
+#photowall{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;   
+}
+
+.heading{
+    padding-bottom: 50px;
+}
+
+.title {
+    border-bottom: 3px solid black;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dream{
+    display:flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.dream img{
+    width:100%;
+    padding-bottom: 10px;
+    border-radius: 5px;;
+}
