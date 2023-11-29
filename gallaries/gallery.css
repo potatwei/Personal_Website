@@ -10,14 +10,16 @@ body {
     background-color:#eaeaea;
 }
 
+/* Scroll Section */
+
 #scroll{
     position:relative;
     overflow:hidden;
-    height: 80vh;
+    height: 75vh;
+    padding-top: 5%;
 }
 
 .container{
-    /**/
     position:absolute;
     width:70vw;
     height: 42vw;
@@ -134,3 +136,6 @@ body {
 .buttons button:hover{
     background-color: rgb(66, 64, 64);
 }
+
+/* PhotoWall Section */
+
