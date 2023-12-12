@@ -400,6 +400,7 @@ article .icon {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    border:rgb(193, 193, 193) 0.1rem solid;
 }
 
 .project-title {
@@ -419,11 +420,11 @@ article .icon {
 }
 
 .project-1-image{
-    border:rgb(193, 193, 193) 0.1rem solid;
+    
 }
 
 .project-2-image{
-    opacity: 0;
+    
 }
 
 /* Contact */
